@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oranienbaum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <title>Test Page</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="nav__pannel">
+                <img class="logo__img" src="./assets/logo.png" alt="logo"/>
+
+                <nav class="navigation">
+                    <a class="navigation__item hospitals" href="#">Nasi Lekarze</a>
+                    <a class="navigation__item contacts" href="#">Kontakt</a>
+                    <a class="navigation__item programs" href="#">Programs</a>
+                    <a class="navigation__item about" href="#">O nas</a>
+                </nav>
+    
+                <div class="settings">
+                    <img class="login__img" src="./assets/login.png"/>
+                    <a class="contact btn" href="#">Skontaktuj się z nami</a>
+                    
+                    <nav class="laguage">
+                        <a class="laguage__item pl checked">PL</a>
+                        <ul class="language__list">
+                            <li class="laguage__item ua">UA</li>
+                            <li class="laguage__item en">EN</li>
+                        </ul>
+                    </nav>
+                
+                    <div class="mode">
+                        <label  for="mode">
+                         <input type="checkbox" name="mode" id="mode">
+                          <div class="toggle">
+                            <div class="light">
+                                <img class="light__img" src="./assets/light.png" alt="light mode"/>
+                            </div>
+                            <div class="dark">
+                                <img class="dark__img" src="./assets/dark.png" alt="dark mode"/>
+                            </div>
+                          </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="promotions__wrapper">
+                <div class="promotions">
+                    <h3 class="promotions__title">Aкції та Акційні пакети</h3>
+                    <p class="promotions__text">Ми завжди прагнемо підвищити рівень сервісу надаваних медичних послуг, і вдячні вам за залишений позитивний відгук. Ми беремо до уваги всі коментарі та побажання, які відносяться до нашої роботи. Дякуємо за ваш вибір.</p>
+                </div>
+
+                <img class="promotions__img" src="./assets/promo.png" alt="promotions"/>
+            </div>
+
+            <div class="packages__wrapper">
+                <h3 class="packages__title">Пакети</h3>
+
+                <ul class="packages__list">
+                    <li class="packages__item">
+                        <p class="packages__item__title">УЗД всього організму для жінок</p>
+
+                        <ul class="packages__item__list">
+                            <li class="packages__item__service">УЗД всього організму для жінок</li>
+                            <li class="packages__item__service">Щитовидна залоза</li>
+                            <li class="packages__item__service">Молочні залози</li>
+                            <li class="packages__item__service">Органи черевної порожнини ( печінка, жовчний міхур, підшлункова залоза, селезінка)</li>
+                            <li class="packages__item__service">Нирки та наднирокові залози</li>
+                            <li class="packages__item__service">Органи малого тазу</li>
+                        </ul>
+
+                        <p class="packages__item__price">Ціна — 2600 грн.</p>
+                        <p class="packages__item__discount">Ціна по акції — 1280 грн</p>
+
+                        <a class="details btn">Переглянути детальніше</a>
+                    </li>
+                    <li class="packages__item">
+                        <p class="packages__item__title">УЗД всього організму для жінок</p>
+
+                        <ul class="packages__item__list">
+                            <li class="packages__item__service">УЗД всього організму для жінок</li>
+                            <li class="packages__item__service">Щитовидна залоза</li>
+                            <li class="packages__item__service">Молочні залози</li>
+                            <li class="packages__item__service">Органи черевної порожнини ( печінка, жовчний міхур, підшлункова залоза, селезінка)</li>
+                            <li class="packages__item__service">Нирки та наднирокові залози</li>
+                            <li class="packages__item__service">Органи малого тазу</li>
+                        </ul>
+
+                        <p class="packages__item__price">Ціна — 2600 грн.</p>
+                        <p class="packages__item__discount">Ціна по акції — 1280 грн</p>
+
+                        <a class="details btn">Переглянути детальніше</a>
+                    </li>
+                    <li class="packages__item">
+                        <p class="packages__item__title">УЗД всього організму для жінок</p>
+
+                        <ul class="packages__item__list">
+                            <li class="packages__item__service">УЗД всього організму для жінок</li>
+                            <li class="packages__item__service">Щитовидна залоза</li>
+                            <li class="packages__item__service">Молочні залози</li>
+                            <li class="packages__item__service">Органи черевної порожнини ( печінка, жовчний міхур, підшлункова залоза, селезінка)</li>
+                            <li class="packages__item__service">Нирки та наднирокові залози</li>
+                            <li class="packages__item__service">Органи малого тазу</li>
+                        </ul>
+
+                        <p class="packages__item__price">Ціна — 2600 грн.</p>
+                        <p class="packages__item__discount">Ціна по акції — 1280 грн</p>
+
+                        <a class="details btn">Переглянути детальніше</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="proposal__wrapper">
+                <h3 class="proposal__title">Акційні пропозиції</h3>
+
+                <div class="proposal">
+                    <div class="proposal__slider__wrapper">
+                        <div class="proposal__slider">
+                            <div class="proposal__slider__item">
+                                <img class="proposal__img" src="./assets/kinesitherapy.png" alt="Кінезітерапія"/>
+    
+                                <div class="proposal__description">
+                                    <p class="proposal__title">Акція "-40% на пробне заняття з кінезітерапії"</p>
+                                    <p class="proposal__text">Маєте чудову нагоду потурбуватись про власне здоров’я за вигідною пропозицією вартістю 680 408 грн.</p>
+                                    <p class="proposal__link">Переглянути детальніше</p>
+                                </div>
+                            </div>
+                            <div class="proposal__slider__item">
+                                <img class="proposal__img" src="./assets/kinesitherapy.png" alt="Кінезітерапія"/>
+    
+                                <div class="proposal__description">
+                                    <p class="proposal__title">Акція "-40% на пробне заняття з кінезітерапії"</p>
+                                    <p class="proposal__text">Маєте чудову нагоду потурбуватись про власне здоров’я за вигідною пропозицією вартістю 680 408 грн.</p>
+                                    <p class="proposal__link">Переглянути детальніше</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proposal__form__wrapper">
+                        <div class="proposal__form">
+                            <p class="proposal__form__title">Czekamy na Ciebie!</p>
+                        
+                            <div class="proposal__form__inputs">
+                                <label class="proposal__form__label" for="name">
+                                    Imię i nazwisko
+                                </label>
+                                <input class="proposal__form__input" type="text" placeholder="Veronica Shtoler" id="name"/>
+                                <label class="proposal__form__label" for="number">
+                                    Number
+                                </label>
+                                <input class="proposal__form__input" type="text" placeholder="+48 XXX XXX XXX" id="phone"/>
+                                <label class="proposal__form__label" for="email">
+                                    Email
+                                </label>
+                                <input class="proposal__form__input" type="text" placeholder="name@gmail.com" id="email"/>
+                                
+                                <div class="proposal__form__checkbox">
+                                    <input class="proposal__form__input--agreement" type="checkbox" form="agreement"/>
+                                    <label class="proposal__form__label--agreement" for="agreement">
+                                        Wypełnienie formularza zgłoszeniowego jest równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych, otrzymywanie newslettera, oraz kontakt telefoniczny
+                                    </label>
+                                </div>
+
+                                <a class="proposal__form__submit btn">Wyślij</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prices__wrapper">
+                <h3 class="prices__title">прайс-лист</h3>
+
+                <div class="prices__block">
+                    <div class="prices__block__elem">
+                        <div class="prices__item price__title">
+                            <p>Kod</p>
+                            <p>Konsultacje</p>
+                            <p>Cena brutto</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Telekonsultacja anestezjologiczna </p>
+                            <p>190 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                    </div>
+                    <div class="prices__block__elem">
+                        <div class="prices__item price__title">
+                            <p>Kod</p>
+                            <p>Badania</p>
+                            <p>Cena brutto</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Telekonsultacja anestezjologiczna </p>
+                            <p>190 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                    </div>
+                    <div class="prices__block__elem">
+                        <div class="prices__item price__title">
+                            <p>Kod</p>
+                            <p>Badania</p>
+                            <p>Cena brutto</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Telekonsultacja anestezjologiczna </p>
+                            <p>190 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                        <div class="prices__item price__elem">
+                            <p>89.000</p>
+                            <p>Konsultacja anestezjologiczna </p>
+                            <p>280 zł</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slogan__wrapper">
+                <img class="slogan__img" src="./assets/slogan.png" alt="logo"/>
+            </div>
+
+            <div class="contacts__wrapper">
+                <img class="map__img" src="./assets/map.png" alt="map"/>
+                <div class="contacts__elem">
+                    <p>W razie jakichkolwiek pytań, zadzwoń</p>
+                    <p class="contact__elem__phone">+48 00 000 00 00</p>
+                    <p class="contact__elem__schedule">Pon. - Pt.: 07:00-20:00</p>
+                </div>
+                <div class="contacts__elem">
+                    <p>Nasz adres e-mail</p>
+                    <p class="contact__elem__email">info@lorem.center</p>
+                    <div class="contact__elem__medias">
+                        <img class="media__img" src="./assets/instagram.png" alt="instagram"/>
+                        <img class="media__img" src="./assets/linkedin.png" alt="linkedin"/>
+                        <img class="media__img" src="./assets/facebook.png" alt="facebook"/>
+                        <img class="media__img" src="./assets/youtube.png" alt="youtube"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer__info">
+                <div class="rules">
+                    <p class="rules__text">Jakiekolwiek wykorzystanie lub kopiowanie wybranych materiałów ze strony jest dozwolone tylko za zgodą właściciela praw autorskich i tylko z powołaniem się na źródło.</p>
+                    <img class="visa__img" src="./assets/visa.png" alt="visa"/>
+                </div>
+                <div class="additional__navigation__block">
+                    <nav class="additional__navigation">
+                        <a class="additional__navigation__item">O nas</a>
+                        <a class="additional__navigation__item">Usługi</a>
+                        <a class="additional__navigation__item">Blog</a>
+                        <a class="additional__navigation__item">Praca</a>
+                        <a class="additional__navigation__item">Cennik</a>
+                    </nav>
+                    <p class="additional__navigation__location">Lokalizacja</p>
+                    <div class="additional__navigation__media">
+                        <img class="media__img" src="./assets/instagram-dark.png" alt="instagram"/>
+                        <img class="media__img" src="./assets/facebook-dark.png" alt="facebook"/>
+                        <img class="media__img" src="./assets/linkedin-dark.png" alt="linkedin"/>
+                        <img class="media__img" src="./assets/youtube-dark.png" alt="youtube"/>
+                    </div>
+                </div>
+                <p class="to__contact">Skontaktuj się z nami</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
