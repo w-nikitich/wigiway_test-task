@@ -20,8 +20,24 @@
                 <nav class="navigation">
                     <a class="navigation__item hospitals" href="#">Nasi Lekarze</a>
                     <a class="navigation__item contacts" href="#">Kontakt</a>
-                    <a class="navigation__item programs" href="#">Programs</a>
-                    <a class="navigation__item about" href="#">O nas</a>
+                    <div class="navigation__item__block">
+                        <a class="navigation__item programs" href="#">Programs</a>
+
+                        <div class="programs__list menu">
+                            <a class="menu__item" href="#">Program 1</a>
+                            <a class="menu__item"  href="#">Program 1</a>
+                            <a class="menu__item"  href="#">Program 3</a>
+                        </div>
+                    </div>
+                    <div class="navigation__item__block">
+                        <a class="navigation__item about" href="#">O nas</a>
+
+                        <div class="about__list menu">
+                            <a class="menu__item" href="#">Наші лікарні</a>
+                            <a class="menu__item"  href="#">Послуги</a>
+                            <a class="menu__item"  href="#">Прайс-ліст</a>
+                        </div>
+                    </div>
                 </nav>
     
                 <div class="settings">
@@ -49,6 +65,16 @@
                           </div>
                         </label>
                     </div>
+                </div>
+
+                <div class="burger__menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="burger__menu__list">
+                    
                 </div>
             </div>
         </div>
@@ -296,27 +322,38 @@
     <footer>
         <div class="wrapper">
             <div class="footer__info">
-                <div class="rules">
-                    <p class="rules__text">Jakiekolwiek wykorzystanie lub kopiowanie wybranych materiałów ze strony jest dozwolone tylko za zgodą właściciela praw autorskich i tylko z powołaniem się na źródło.</p>
-                    <img class="visa__img" src="./assets/visa.png" alt="visa"/>
-                </div>
-                <div class="additional__navigation__block">
-                    <nav class="additional__navigation">
-                        <a class="additional__navigation__item">O nas</a>
-                        <a class="additional__navigation__item">Usługi</a>
-                        <a class="additional__navigation__item">Blog</a>
-                        <a class="additional__navigation__item">Praca</a>
-                        <a class="additional__navigation__item">Cennik</a>
-                    </nav>
-                    <p class="additional__navigation__location">Lokalizacja</p>
-                    <div class="additional__navigation__media">
-                        <img class="media__img" src="./assets/instagram-dark.png" alt="instagram"/>
-                        <img class="media__img" src="./assets/facebook-dark.png" alt="facebook"/>
-                        <img class="media__img" src="./assets/linkedin-dark.png" alt="linkedin"/>
-                        <img class="media__img" src="./assets/youtube-dark.png" alt="youtube"/>
+                <div class="footer__menu">
+                    <div class="rules">
+                        <p class="rules__text">Jakiekolwiek wykorzystanie lub kopiowanie wybranych materiałów ze strony jest dozwolone tylko za zgodą właściciela praw autorskich i tylko z powołaniem się na źródło.</p>
+                        <img class="visa__img" src="./assets/visa.png" alt="visa"/>
+                    </div>
+                    <div class="additional__navigation__wrapper">
+                        <div class="additional__navigation__block">
+                            <nav class="additional__navigation">
+                                <a class="additional__navigation__item">O nas</a>
+                                <a class="additional__navigation__item">Usługi</a>
+                                <a class="additional__navigation__item">Blog</a>
+                                <a class="additional__navigation__item">Praca</a>
+                                <a class="additional__navigation__item">Cennik</a>
+                            </nav>
+                            <p class="additional__navigation__location">Lokalizacja</p>
+                            <div class="additional__navigation__media">
+                                <img class="media__img" src="./assets/instagram-dark.png" alt="instagram"/>
+                                <img class="media__img" src="./assets/facebook-dark.png" alt="facebook"/>
+                                <img class="media__img" src="./assets/linkedin-dark.png" alt="linkedin"/>
+                                <img class="media__img" src="./assets/youtube-dark.png" alt="youtube"/>
+                            </div>
+                        </div>
+                        <p class="to__contact">Skontaktuj się z nami</p>
                     </div>
                 </div>
-                <p class="to__contact">Skontaktuj się z nami</p>
+                <nav class="navigation__info">
+                    <a class="navigation__info__item">Polityka Prywatności</a>
+                    <a class="navigation__info__item">Regulamin</a>
+                    <a class="navigation__info__item">Przygotowanie do badań</a>
+                    <a class="navigation__info__item">Informacja o prawach pacjenta</a>
+                    <a class="navigation__info__item">Polityka cookie</a>
+                </nav>
             </div>
         </div>
     </footer>
